@@ -16,6 +16,9 @@ body {
   padding: 0;
 }
 
+a{
+  color: #333;
+}
 
 header {
   background-color: #393939;
@@ -45,4 +48,30 @@ footer {
   color: #fff;
   padding: 20px 10px;
   text-align: center;
+}
+
+article.post{
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+article.post a.button{
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.meta {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+}
+
+.post-thumbnail img {
+  width: 100%;
+  height: auto;
 }
