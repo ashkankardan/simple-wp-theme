@@ -41,6 +41,17 @@ header h1 {
 
 .main {
   margin: 15px 0;
+  float: left;
+  width: 68%;
+}
+
+.sidebar {
+  float: right;
+  width: 28%;
+}
+
+.clr {
+  clear: both;
 }
 
 footer {
@@ -71,7 +82,49 @@ article.post a.button{
   padding: 5px;
 }
 
+.meta a{
+  color: white;
+}
+
 .post-thumbnail img {
   width: 100%;
   height: auto;
+}
+
+.main-nav{
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.main-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li{
+  list-style: none;
+  float: left;
+  padding-right: 15px;
+}
+.main-nav a{
+  color: white;
+  text-decoration: none;
+}
+
+.side-widget {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.side-widget li{
+  list-style:none;
+  line-height: 2.2em;
+  border-bottom:  1px dotted #ccc;
+}
+
+.side-widget a{
+  text-decoration: none;
 }
